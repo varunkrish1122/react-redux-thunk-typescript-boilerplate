@@ -1,0 +1,1 @@
+export const getData = () => 'I am BoilerPlate From Util'
