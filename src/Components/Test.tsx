@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 
 import {getData} from '@/Utils/testUtil'
 
-const Test = () => {
-  const [data, setData] = useState();
+const Test: React.FC = () => {
+  const [data, setData] = useState<String>();
   useEffect(() => {
     setData(getData())
   }, [])
